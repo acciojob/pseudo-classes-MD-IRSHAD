@@ -1,7 +1,33 @@
 /*  your css code here. If applicable */
-p:first-line{
-	color:rgb(255, 0, 0);
+:root{
+	background-color:skyblue;
 }
-p:last-child{
-	color:rgb(255, 0, 0);
+
+ div :first-child{
+	background-color:black;
+	color:white;
+}
+
+ div :last-child{
+	color: red;
+}
+
+ ul li:nth-child(1){
+	background-color:white;
+}
+
+ ul li:nth-child(5){
+	background-color:white;
+}
+
+ ul li:nth-child(2){
+    background-color: slategrey;
+}
+
+ul li:nth-child(3){
+	background-color:pink;
+}
+
+ ul li:nth-child(4){
+    background-color: slategrey;
 }
