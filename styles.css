@@ -1,1 +1,7 @@
 /*  your css code here. If applicable */
+p:first-line{
+	color:rgb(255, 0, 0);
+}
+p:last-child{
+	color:rgb(255, 0, 0);
+}
